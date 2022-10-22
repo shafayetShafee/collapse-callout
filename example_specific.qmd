@@ -1,0 +1,49 @@
+---
+title: "Collapse-callout Example"
+filters:
+  - collapse-callout
+collapse-callout:
+  tip: true
+  note: false
+  warning: false
+  caution: true
+callout-appearance: minimal
+callout-icon: false
+format: html
+---
+
+## Callout Blocks
+
+:::{.callout-note collapse='true'}
+### Note
+
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+:::{.callout-tip}
+### Tip With Caption
+
+This is an example of a callout with a caption.
+:::
+
+## More callout blocks
+
+:::{.callout-caution}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+:::{.callout-important}
+## Important
+
+This is important
+:::
+
+
+:::{.callout-warning icon='false' collapse='false'}
+## warning
+
+WARNINGS !!!!
+:::

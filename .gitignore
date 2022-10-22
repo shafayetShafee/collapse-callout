@@ -1,0 +1,7 @@
+*.html
+*.pdf
+*.docx
+*.epub
+.Rproj.user
+collapse-callout.rproj
+*_files/
