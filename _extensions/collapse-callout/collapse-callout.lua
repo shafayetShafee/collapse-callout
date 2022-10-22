@@ -1,3 +1,4 @@
+-- defining all possible callout types
 local callouts_all = {
         caution = 'callout-caution', 
   			important = 'callout-important',
@@ -6,7 +7,7 @@ local callouts_all = {
   			warning = 'callout-warning'
     }
 
-
+-- function for adding collapse attributes to callout divs
 function collapse_callout(callouts, bool)
   local callout_filter = {
     Div = function(el)
@@ -23,6 +24,7 @@ function collapse_callout(callouts, bool)
   return callout_filter
 end
 
+-- make changes to input file if the format is html
 if quarto.doc.isFormat("html:js") then
   function Pandoc (doc)
     local collapse = doc.meta['collapse-callout']

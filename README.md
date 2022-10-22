@@ -1,6 +1,6 @@
-# Collapse-callout
+# collapse-callout
 
-A very simple filter extension For Quarto that provides options from document yaml header (i.e. global options) to make the Callout Blocks in your document collapsible. By specifying `true` or `false`, you can either make the Callout Blocks collapsed or keep them expanded by default.
+A very simple filter extension For Quarto that provides options from document yaml header (i.e. global options) to make the [`Callout Blocks`](https://quarto.org/docs/authoring/callouts.html) in your document [`collapsible`](https://quarto.org/docs/authoring/callouts.html#collapse). By specifying `true` or `false`, you can either make the Callout Blocks collapsed or keep them expanded by default.
 
 And Note that, Callout blocks collapsibility works only for `html` format.
 
