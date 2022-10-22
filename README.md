@@ -1,6 +1,6 @@
 # Collapse-callout
 
-A very simple filter extension For Quarto that allows to make the Callout Blocks in your document collapsible from document yaml header. By specifying `true` or `false`, you can either make the Callout Blocks collapsed or keep them expanded by default.
+A very simple filter extension For Quarto that provides options from document yaml header (i.e. global options) to make the Callout Blocks in your document collapsible. By specifying `true` or `false`, you can either make the Callout Blocks collapsed or keep them expanded by default.
 
 And Note that, Callout blocks collapsibility works only for `html` format.
 
@@ -18,7 +18,7 @@ This will install the extension under the `_extensions` subdirectory. If you're 
 
 ### Collapsing all types of callout blocks
 
-Add the following to the yaml header of your document to make all of the callout blocks in your document collapsed by default.
+Add the following to yaml header of your document to make all of the callout blocks in your document collapsed by default.
 
 ```
 title: "Collapse-callout Example"
@@ -69,7 +69,7 @@ collapse-callout:
 ---
 ```
 
-***Note that, if you set `collapse=false` or `collapse=true` manually in the document source file (that is in the qmd file), this filter will not overwrite that.***
+***Note that, if you set `collapse=false` or `collapse=true` manually in the callout divs in the document source file (that is in the qmd file), this filter will not overwrite that.***
 
 ## Example
 
