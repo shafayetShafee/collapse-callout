@@ -6,10 +6,8 @@ And Note that, Callout blocks collapsibility works only for `html` format.
 
 ## Installing
 
-To install this extension in your current directory (or into the Quarto project that you're currently working in), use the following command:
-
 ``` bash
-quarto add shafayetShafee/collapse-callout
+quarto install extension shafayetShafee/collapse-callout
 ```
 
 This will install the extension under the `_extensions` subdirectory. If you're using version control, you will want to check in this directory.
