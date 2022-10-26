@@ -3,19 +3,16 @@ title: "Collapse-callout Example"
 filters:
   - collapse-callout
 collapse-callout:
-  tip: true
-  note: false
-  warning: false
-  caution: true
-callout-appearance: minimal
-callout-icon: false
+  all: false
+callout-appearance: simple
+callout-icon: true
 format: html
 self-contained: true
 ---
 
 ## Callout Blocks
 
-:::{.callout-note collapse='true'}
+:::{.callout-note}
 ### Note
 
 Note that there are five types of callouts, including:
@@ -39,11 +36,11 @@ This is an example of a 'folded' caution callout that can be expanded by the use
 :::{.callout-important}
 ## Important
 
-This is important and it is not collapsible, since we didn't specify either `true` or `false` for `important` in our YAML header.
+This is important
 :::
 
 
-:::{.callout-warning icon='false' collapse='false'}
+:::{.callout-warning icon='false'}
 ## warning
 
 WARNINGS !!!!

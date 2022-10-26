@@ -7,6 +7,7 @@ collapse-callout:
 callout-appearance: simple
 callout-icon: true
 format: html
+self-contained: true
 ---
 
 ## Callout Blocks
