@@ -63,7 +63,7 @@ Therefore, the following will not do anything for `important` type Callout block
 
 A few things to note,
 
--   If you use `all` option, specfic options (i.e. `tip`, `important` etc.) will not be used.
+-   If you use `all` option, specific options (i.e. `tip`, `important` etc.) will not be used.
 
 -   **if you set `collapse=false` or `collapse=true` manually in the callout divs in the document source file (that is in the qmd file), this filter will not overwrite that.**
 
