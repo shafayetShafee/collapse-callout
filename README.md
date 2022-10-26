@@ -18,15 +18,13 @@ This will install the extension under the `_extensions` subdirectory. If you're 
 
 Add the following to yaml header of your document to make all of the callout blocks in your document collapsed by default.
 
-```
-title: "Collapse-callout Example"
-filters:
-  - collapse-callout
-collapse-callout:
-  all: true
-format: html
----
-```
+    title: "Collapse-callout Example"
+    filters:
+      - collapse-callout
+    collapse-callout:
+      all: true
+    format: html
+    ---
 
 here `all` can be either `true` or `false`.
 
@@ -34,49 +32,45 @@ here `all` can be either `true` or `false`.
 
 You can also set the collapsibility for specfic types of callout blocks in the following way,
 
-```
----
-title: "Collapse-callout Example"
-filters:
-  - collapse-callout
-collapse-callout:
-  tip: true
-  note: false
-  warning: false
-  important: false
-  caution: true
----
-```
+    ---
+    title: "Collapse-callout Example"
+    filters:
+      - collapse-callout
+    collapse-callout:
+      tip: true
+      note: false
+      warning: false
+      important: false
+      caution: true
+    ---
 
-here `tip` and `caution` types Callout blocks will be in collapsed form and rest of the callout blocks will be in expanded form by default. 
+here `tip` and `caution` types Callout blocks will be in collapsed form and rest of the callout blocks will be in expanded form by default.
 
-If you do not want to make a specfic type of Callout Blocks collapsible, simply do not include its name under `collapse-callout` in the yaml header. 
+If you do not want to make a specfic type of Callout Blocks collapsible, simply do not include its name under `collapse-callout` in the yaml header.
 
 Therefore, the following will not do anything for `important` type Callout blocks,
 
-```
----
-title: "Collapse-callout Example"
-filters:
-  - collapse-callout
-collapse-callout:
-  tip: true
-  note: false
-  warning: false
-  caution: true
----
-```
+    ---
+    title: "Collapse-callout Example"
+    filters:
+      - collapse-callout
+    collapse-callout:
+      tip: true
+      note: false
+      warning: false
+      caution: true
+    ---
 
 A few things to note,
 
-- If you use `all` option, specfic options (i.e. `tip`, `important` etc.) will not be used.
+-   If you use `all` option, specfic options (i.e. `tip`, `important` etc.) will not be used.
 
-- **if you set `collapse=false` or `collapse=true` manually in the callout divs in the document source file (that is in the qmd file), this filter will not overwrite that.**
+-   **if you set `collapse=false` or `collapse=true` manually in the callout divs in the document source file (that is in the qmd file), this filter will not overwrite that.**
 
 ## Example
 
-Here is the source code for 
-
-- a minimal example where all callout blocks are collapsed: [example_all.qmd](example_all.qmd).
-
-- a minimal example where some specfic callout blocks are collapsed: [example_specific.qmd](example_specific.qmd).
+| **Source Files** | **Rendered HTML Output** |
+|:---:|:---:|
+| A minimal example where all `Callout Blocks` are collapsible and collapsed (with `all: true`) [example_all_true.qmd](example_all_true.qmd) | [Rendered Output](https://shafayetshafee.github.io/collapse-callout/example_all_true.html) |
+| A minimal example where all `Callout Blocks` are collapsible and expanded (with `all: false`) [example_all_false.qmd](example_all_false.qmd) | [Rendered Output](https://shafayetshafee.github.io/collapse-callout/example_all_false.html) |
+| A minimal example where some specific types of `Callout Blocks` are collapsible and collapsed or expanded [example_specific.qmd](example_specific.qmd) | [Rendered Output](https://shafayetshafee.github.io/collapse-callout/example_specific.html) |
