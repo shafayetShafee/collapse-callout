@@ -69,16 +69,8 @@ A few things to note,
 
 ## Example
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| Source Files                                                                                                                                           | Rendered HTML Output                                                                        |
-+========================================================================================================================================================+:===========================================================================================:+
-| A minimal example where all `Callout Blocks` are collapsible and collapsed (with `all: true`) [example_all_true.qmd](example_all_true.qmd)             | [Rendered Output](https://shafayetshafee.github.io/collapse-callout/example_all_true.html)  |
-|                                                                                                                                                        |                                                                                             |
-| A minimal example where all `Callout Blocks` are collapsible and expanded (with `all: false`) [example_all_false.qmd](example_all_false.qmd)           |                                                                                             |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-|                                                                                                                                                        | [Rendered Output](https://shafayetshafee.github.io/collapse-callout/example_all_false.html) |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| A minimal example where some specific types of `Callout Blocks` are collapsible and collapsed or expanded [example_specific.qmd](example_specific.qmd) | [Rendered Output](https://shafayetshafee.github.io/collapse-callout/example_specific.html)  |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-
-: Example Source files with rendered HTML output
+| **Source Files** | **Rendered HTML Output** |
+|:---:|:---:|
+| A minimal example where all `Callout Blocks` are collapsible and collapsed  (with `all: true`) [example_all_true.qmd](example_all_true.qmd) | [Rendered Output](https://shafayetshafee.github.io/collapse-callout/example_all_true.html) |
+| A minimal example where all `Callout Blocks` are collapsible and expanded  (with `all: false`) [example_all_false.qmd](example_all_false.qmd) | [Rendered Output](https://shafayetshafee.github.io/collapse-callout/example_all_false.html) |
+| A minimal example where some specific types of `Callout Blocks` are collapsible and  collapsed or expanded [example_specific.qmd](example_specific.qmd) | [Rendered Output](https://shafayetshafee.github.io/collapse-callout/example_specific.html) |
