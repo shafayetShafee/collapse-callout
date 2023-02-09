@@ -1,14 +1,22 @@
 ---
 title: "Collapse-callout Example"
+author: Shafayet Khan Shafee
+date: "26 Oct, 2022"
+date-modified: last-modified
+date-format: "DD MMM, YYYY"
 filters:
   - collapse-callout
 collapse-callout:
   all: true
 callout-appearance: simple
 callout-icon: true
-format: html
+format: 
+  html:
+    code-tools: true
 self-contained: true
 ---
+
+> View the source code by clicking `</> Code` on the top right corner.
 
 ## Callout Blocks
 
